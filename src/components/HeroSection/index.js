@@ -130,6 +130,7 @@ const SubTitle = styled.div`
   font-size: 20px;
   color: ${({ theme }) => theme.text_primary + 95};
   line-height: 32px;
+  text-align: justify;
   margin-bottom: 42px;
   @media screen and (max-width: 960px) {
     text-align: center;
@@ -210,7 +211,7 @@ const Hero = () => {
         <HeroInnerContainer>
           <HeroLeftContainer>
             <Title>
-              Hi, I'm <br />
+              Hey there, I'm <br />
               {Bio.name}
             </Title>
             <TextLoop>
