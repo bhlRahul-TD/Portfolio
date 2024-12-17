@@ -33,7 +33,7 @@ const HeroBgAnimation = () => (
         transform="translate(-295.027 -193.118)"
         rx="1.07306"
         ry="1.07433"
-        fill="#945DD6"
+        fill="#57476a"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
           <mpath xlinkHref="#path_2" />
@@ -85,7 +85,7 @@ const HeroBgAnimation = () => (
         rx="1.07433"
         ry="1.07306"
         transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
-        fill="#945DD6"
+        fill="#57476a"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
           <mpath xlinkHref="#path_0" />
@@ -106,7 +106,7 @@ const HeroBgAnimation = () => (
         rx="1.07433"
         ry="1.07306"
         transform="translate(-382.164 -155.029) rotate(90 382.164 155.029)"
-        fill="#F46737"
+        fill="#346b49"
       >
         <animateMotion
           dur="10s"
@@ -137,7 +137,7 @@ const HeroBgAnimation = () => (
         rx="1.07306"
         ry="1.07433"
         transform="translate(-333.324 -382.691) rotate(-180 333.324 382.691)"
-        fill="#F46737"
+        fill="#346b49"
       >
         <animateMotion
           dur="5s"
@@ -168,7 +168,7 @@ const HeroBgAnimation = () => (
         rx="1.07306"
         ry="1.07433"
         transform="translate(-165.524 -93.9596)"
-        fill="#F46737"
+        fill="#346b49"
       >
         <animateMotion
           dur="10s"
@@ -266,8 +266,8 @@ const HeroBgAnimation = () => (
           y2="218.154"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#945DD6" />
-          <stop offset="1" stopColor="#945DD6" stopOpacity="0" />
+          <stop stopColor="#57476a" />
+          <stop offset="1" stopColor="#57476a" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear"
@@ -277,8 +277,8 @@ const HeroBgAnimation = () => (
           y2="338.272"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#945DD6" />
-          <stop offset="1" stopColor="#945DD6" stopOpacity="0" />
+          <stop stopColor="#57476a" />
+          <stop offset="1" stopColor="#57476a" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear"
@@ -288,8 +288,8 @@ const HeroBgAnimation = () => (
           y2="129.989"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#F46737" />
-          <stop offset="1" stopColor="#F46737" stopOpacity="0" />
+          <stop stopColor="#346b49" />
+          <stop offset="1" stopColor="#346b49" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear"
@@ -299,8 +299,8 @@ const HeroBgAnimation = () => (
           y2="357.655"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#F46737" />
-          <stop offset="1" stopColor="#F46737" stopOpacity="0" />
+          <stop stopColor="#346b49" />
+          <stop offset="1" stopColor="#346b49" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint7_linear"
@@ -310,8 +310,8 @@ const HeroBgAnimation = () => (
           y2="118.996"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#F46737" />
-          <stop offset="1" stopColor="#F46737" stopOpacity="0" />
+          <stop stopColor="#346b49" />
+          <stop offset="1" stopColor="#346b49" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint8_linear"
