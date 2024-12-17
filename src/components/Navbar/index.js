@@ -121,7 +121,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <GitHubButton
               style={{
                 padding: "10px 16px",
-                background: `${theme.primary}`,
+                background: `#47608f`,
                 color: "white",
                 width: "max-content",
               }}

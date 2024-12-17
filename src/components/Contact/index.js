@@ -211,7 +211,7 @@ const Contact = () => {
             autoComplete="off"
           />
           <ContactInput
-            placeholder="Plaese enter your name"
+            placeholder="Please enter your name"
             name="from_name"
             value={name}
             onChange={(e) => setName(e.target.value)}
