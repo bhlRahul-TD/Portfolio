@@ -15,7 +15,7 @@ export const Bio = {
     "Passionate and results-driven software professional with nearly 3 years of experience in the IT industry, dedicated to achieving goals through efficient practices and adaptability under pressure. Eager to leverage my technical and analytical skills in innovative projects, continuously learn, and contribute to impactful solutions in the ever-evolving tech landscape.",
   github: "https://github.com/bhlRahul-TD",
   resume:
-    "https://drive.google.com/file/d/1imon0vv1Rl5P2CRPt81oPFG1mUh5ihM5/view?usp=sharing",
+    "https://drive.google.com/file/d/1Wx2pbrOrvtUnV1rVB7Pp3i9VYtj83y8O/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/bhlrahul-li/",
   twitter: "https://x.com/bhlrahul_tw",
   insta: "https://www.instagram.com/bhlrahul_ig/",
