@@ -18,7 +18,20 @@ const Container = styled.div`
   align-items: center;
   padding: 18px 0px 60px 0px;
   @media (max-width: 960px) {
-    padding: 36px 36px 54px 36px;
+    padding: 36px 36px 0px 36px;
+  }
+`;
+
+const Container2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  padding: 18px 0px 60px 0px;
+  @media (max-width: 960px) {
+    padding: 0px 63px 18px 36px;
   }
 `;
 
@@ -76,33 +89,39 @@ const TimelineSection = styled.div`
 
 const index = () => {
   return (
-    <Container id="education">
-      <Wrapper>
-        <Title>Education</Title>
-        <Desc>
-          My educational expedition has been instrumental in helping me uncover
-          more about myself and progress as an individual. Here's an overview of
-          my educational history for your reference.
-        </Desc>
-        <TimelineSection>
-          <Timeline>
-            {education.map((education, index) => (
-              <TimelineItem>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <EducationCard education={education} />
-                </TimelineContent>
-                <TimelineSeparator>
-                  <TimelineDot variant="outlined" color="info" />
-                  {index !== experiences.length - 1 && (
-                    <TimelineConnector style={{ background: "#5978b3" }} />
-                  )}
-                </TimelineSeparator>
-              </TimelineItem>
-            ))}
-          </Timeline>
-        </TimelineSection>
-      </Wrapper>
-    </Container>
+    <>
+      <Container id="education">
+        <Wrapper>
+          <Title>Education</Title>
+          <Desc>
+            My educational expedition has been instrumental in helping me
+            uncover more about myself and progress as an individual. Here's an
+            overview of my educational history for your reference.
+          </Desc>
+        </Wrapper>
+      </Container>
+      <Container2>
+        <Wrapper>
+          <TimelineSection>
+            <Timeline>
+              {education.map((education, index) => (
+                <TimelineItem>
+                  <TimelineContent sx={{ py: "12px", px: 2 }}>
+                    <EducationCard education={education} />
+                  </TimelineContent>
+                  <TimelineSeparator>
+                    <TimelineDot variant="outlined" color="info" />
+                    {index !== experiences.length - 1 && (
+                      <TimelineConnector style={{ background: "#5978b3" }} />
+                    )}
+                  </TimelineSeparator>
+                </TimelineItem>
+              ))}
+            </Timeline>
+          </TimelineSection>
+        </Wrapper>
+      </Container2>
+    </>
   );
 };
 
